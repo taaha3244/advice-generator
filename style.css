@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: inherit;
+
+}
+
+body{
+    
+    background-color: hsl(217, 19%, 24%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    
+  
+}
+
+.advice-gen{
+    width: 90%;
+    height: 50vh;
+    background-color:  hsl(217, 19%, 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.number{
+    margin: 2rem 0rem;
+    color: hsl(150, 100%, 66%);
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+.advice{
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+    color: hsl(193, 38%, 86%);
+}
+
+.divider{
+    color:hsl(193, 38%, 86%);
+}
+
+.dice-container{
+    width: 2rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    margin-top: 2.3rem;
+    background-color: hsl(150, 100%, 66%);
+}
+
+.dice{
+    width: 1rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+}
