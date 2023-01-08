@@ -71,4 +71,17 @@ body{
     margin-top: 0.1rem;
 }
 
+@media(min-width:1240px){
 
+    .advice-gen{
+        width: 30%;
+        height: 40vh;
+        background-color:  hsl(217, 19%, 38%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 3%;
+    }
+  
+
+}
